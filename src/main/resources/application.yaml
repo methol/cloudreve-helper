@@ -1,0 +1,11 @@
+logging:
+  level:
+    root: info
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:/Users/methol/Downloads/cloudreve.db
+    username:
+    password:
